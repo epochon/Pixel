@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Smart Irrigation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+    <div class="glass-card">
+        <h1>🌱 Smart Irrigation System</h1>
+        <p class="subtitle">AI-Inspired Intelligent Water Management</p>
+
+        <div class="form">
+            <input type="number" id="moisture" placeholder="Soil Moisture (%)">
+            <input type="number" id="temperature" placeholder="Temperature (°C)">
+            <input type="number" id="humidity" placeholder="Humidity (%)">
+
+            <select id="rain">
+                <option value="false">Rain Expected? — No</option>
+                <option value="true">Rain Expected? — Yes</option>
+            </select>
+
+            <select id="crop">
+                <option value="rice">Crop Type — Rice</option>
+                <option value="wheat">Crop Type — Wheat</option>
+            </select>
+
+            <button onclick="getDecision()">Analyze Irrigation</button>
+        </div>
+
+        <div id="resultBox" class="result hidden">
+            <h2 id="decisionText"></h2>
+            <p id="reasonText"></p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
