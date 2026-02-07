@@ -1,17 +1,17 @@
 # 🔗 Project: Smart Irrigation System
 
 ## Goal
-To build a smart irrigation system that automatically decides when **not to water crops** by analyzing soil moisture and environmental conditions, helping conserve water and improve crop efficiency.
+To develop an intelligent irrigation system that makes real-time decisions on when NOT to water crops by analyzing soil moisture and environmental conditions, ensuring efficient water usage and healthier crop growth
 
 ## Problem Statement
-Traditional irrigation systems often water crops at fixed times without considering soil moisture or weather conditions, leading to water wastage and crop damage. There is a need for an intelligent system that can **refuse unnecessary watering** and supply water only when crops actually need it.
+Conventional irrigation methods rely on fixed schedules and manual judgment, often ignoring real-time soil and weather conditions. This results in over-irrigation, water wastage, soil degradation, and reduced crop productivity. With increasing water scarcity, there is a critical need for a smart, data-driven irrigation system that can refuse unnecessary watering and provide water only when crops genuinely require it.
 
 ## Key Features
-- Automatic decision-making to refuse irrigation when soil moisture is sufficient
-- Real-time monitoring of soil and environmental conditions
-- Water usage optimization to reduce wastage and improve sustainability
+• Smart decision logic that automatically refuses irrigation when soil moisture is sufficient
+• Continuous real-time monitoring of soil moisture and environmental parameters
+• Data-driven optimization of water usage to promote sustainable and efficient farming
 
 ## Technical Stack
-- Frontend: React, TypeScript
-- Backend: Node.js, Express
-- Database: PostgreSQL
+• Frontend: React, TypeScript
+• Backend: Node.js, Express
+• Database: PostgreSQL
